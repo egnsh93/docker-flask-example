@@ -1,6 +1,6 @@
 from app import app
 
-
+# Return the main view
 @app.route("/")
 def main():
-    return "hello world!"
+    return "Hello, Shane!"
